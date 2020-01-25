@@ -4,7 +4,6 @@
 #
 %define		pdir	MooseX
 %define		pnam	Types-JSON
-%include	/usr/lib/rpm/macros.perl
 Summary:	MooseX::Types::JSON - JSON datatype for Moose
 #Summary(pl.UTF-8):	
 Name:		perl-MooseX-Types-JSON
