@@ -7,18 +7,18 @@
 Summary:	MooseX::Types::JSON - JSON datatype for Moose
 #Summary(pl.UTF-8):	
 Name:		perl-MooseX-Types-JSON
-Version:	0.03
-Release:	2
+Version:	1.01
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/MooseX/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	48f0a59545f8c49c4375665cc6c9a2c1
+Source0:	https://www.cpan.org/modules/by-authors/id/P/PL/PLICEASE/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	173a796724db1eaa087b082fc1562704
 URL:		http://search.cpan.org/dist/MooseX-Types-JSON/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl-JSON-XS
+BuildRequires:	perl-JSON
 BuildRequires:	perl-Moose
 BuildRequires:	perl-MooseX-Types
 %endif
